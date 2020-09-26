@@ -1,0 +1,35 @@
+html{
+    background-color: #edf2c5;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    max-width: 1260px;
+    max-height: 880px;
+    background-color: #edf2c5;
+    margin: auto;
+}
+.header{
+    position: absolute;
+    width: 271px;
+    height: 62px;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+    margin: 36px 829px 782px 160px;
+
+}
+.nav{
+    position: absolute;
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin: 103px 160px 733px 160px;
+}
