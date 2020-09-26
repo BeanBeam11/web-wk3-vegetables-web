@@ -9,6 +9,7 @@ html{
     background-color: #edf2c5;
     margin: auto;
 }
+/* Header */
 .header{
     position: absolute;
     width: 271px;
@@ -25,6 +26,7 @@ html{
     margin: 36px 829px 782px 160px;
 
 }
+/* Navigation  */
 .nav{
     position: absolute;
     width: 940px;
@@ -33,3 +35,43 @@ html{
     background-color: #778a50;
     margin: 103px 160px 733px 160px;
 }
+.nav_list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav_list_items{
+    position: absolute;
+    list-style: none;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+}
+.home{
+    margin-left: 30px;
+}
+.about_us{
+    margin-left: 150px;
+}
+.vegetables{
+    margin-left: 290px;
+}
+.online{
+    margin-left: 448px;
+}
+.contact{
+    margin-left: 564px;
+}
+/* Content */
+.img_main_pumpkin {
+    width: 940px;
+    height: 448px;
+    object-fit: contain;
+  }
